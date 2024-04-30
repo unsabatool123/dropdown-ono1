@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Card Generator</title>
+</head>
+<body>
+    <script src="task.js"></script>
+    <label for="color">Select Card Color:</label>
+    <select id="color">
+        <option value="red">Red</option>
+        <option v`alue="blue">Blue</option>
+        <option value="green">Green</option>
+        <option value="yellow">yellow</option>
+        <option value="pink">pink</option>
+
+    </select>
+
+    <br> <br>
+
+    <label for="number">Select Card Number:</label>
+    <select id="number">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+    
+    </select>
+
+    <br><br>
+    <button onclick="generateCard()">Generate Card</button>
+
+    <div id="cardContainer"></div> 
+
+    
+</body>
+</html>
